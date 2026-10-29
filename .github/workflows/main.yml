@@ -15,9 +15,9 @@ jobs:
          with: 
            node-version: 22.x
        - name: install dependencies
-         run: npn install
+         run: npm install
        - name: build angular app 
-         run: npn run build
+         run: npm run build
        
     
 
