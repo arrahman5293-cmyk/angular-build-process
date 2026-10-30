@@ -5,7 +5,7 @@ on:
   branches: [ main ]
 
 jobs:
-  build:
+  build angular app:
     runs-on: ubuntu-latest
 
     steps:
@@ -13,7 +13,7 @@ jobs:
        - name: setup node js
          uses: actions/setup-node@v7.1.0
          with: 
-           node-version: 22.x
+            node-version: 22.x
        - name: install dependencies
          run: npm install
        - name: build angular app 
